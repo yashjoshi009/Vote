@@ -1,0 +1,48 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background: url('/public/rock2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    color: #92e1e5;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* .login-button {
+    margin-left: auto;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  } */
+
+  .login-button {
+    background-color: #45a29e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .website-name {
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 24px;
+  }
+  
+  .login-button:hover {
+    background-color: #66fcf1;
+    color: #0b0c10;
+  }
